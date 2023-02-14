@@ -1,0 +1,47 @@
+
+   .languages{
+    margin-left: 700px;
+    block-size:40px;
+
+  
+   }
+
+   .navbar-brand{
+    font-family: "Libre Baskerville";
+    font-style: bold;
+     color:red;
+    font-size: 1.75rem;
+   }
+
+   .subject{
+    text-align: center;
+    padding:20%;
+   }
+
+h3{
+
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 450px;
+    padding:3px;
+}
+h1{
+    font: 1.75rem;
+    color:white;
+}
+.subsentence1{
+    color:white;
+}
+
+
+.title{
+
+    background-image: url("/Users/sureshkannanmuthusamy/Desktop/Netflix starting page/images/photo-1502736842968-bcaab72d0700.avif");
+}
+.input-group{
+    padding-top:5px
+}
+     
+
+      

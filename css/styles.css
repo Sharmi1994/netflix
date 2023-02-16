@@ -1,8 +1,7 @@
 
    .languages{
-    margin-left: 700px;
-    block-size:40px;
-
+   margin-left: 1000px;
+    block-size:37px;
   
    }
 
@@ -33,15 +32,59 @@ h1{
 .subsentence1{
     color:white;
 }
-
+.subsentence{
+    background-color: orange;
+}
 
 .title{
 
-    background-image: url("/Users/sureshkannanmuthusamy/Desktop/Netflix starting page/images/photo-1502736842968-bcaab72d0700.avif");
+    background-image: url("/Users/sureshkannanmuthusamy/Desktop/Netflix starting page/images/netflix.jpeg");
 }
 .input-group{
     padding-top:5px
 }
-     
 
+.television{
+    background-color: black;
+    color:white;
+   
+}
+
+.content{
+    text-align: center;
+    font-family: "poppins";
+    font-style: bold;
+    padding:20% 5%;
+    font-size: larger;
+}
+
+
+
+  hr.rounded {
+    border-top: 8px solid rgb(52, 51, 51);
+    border-radius: 5px;
+    margin-top: 0pc;
+    margin-bottom: 0pc;
+  }
+  .gif{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 10%;
+        padding-left: 10%;
+      
+  }
+
+.Strange{
+    font-size: small;
+}
+.download{
+    font-size: small;
+    color:blue;
+}
+.diagonalbox{
+    margin-left:25%
+}
       

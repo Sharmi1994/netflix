@@ -6,36 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-    rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="css/styles.css" />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container ">
+    <div onclick="toggle()" id="myDiv">What is Netflix? <i class=" fa fa-sharp fa-solid fa-plus"></i></div>
 
-        <div class="row ">
-            <div class="col-1 imgs">   <img
-                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
-                alt="img.png"
-                width="60"
-                height="80"
-              /> </div>
-              <div class="col-3"> <p>Stranger Things</p>
-        
-            <p>Downloading...</p></div>
-            <div class="col-1 imgs">   <img
-                src="/Users/sureshkannanmuthusamy/Desktop/Netflix starting page/images/download-icon-gif-3.jpeg"
-                alt="img.png"
-                width="60"
-                height="80"
-              /> </div>
-        </div>
+    <div class="Divide">
+      <span
+        >Netflix is a streaming service that offers a wide variety of
+        award-winning TV shows, movies, anime, documentaries, and more on
+        thousands of internet-connected devices.<br />
+        <br />
+        You can watch as much as you want, whenever you want without a single
+        commercial – all for one low monthly price. There's always something new
+        to discover and new TV shows and movies are added every week!
+      </span>
     </div>
- 
 
+    <div onclick="toggle()" id="myDiv">How much does Netflix cost? <i class=" fa fa-sharp fa-solid fa-plus"></i></div> 
 
+    <div class="Divide" >
+      <span
+        >Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from US$8.99 to US$15.99 a month. No extra costs, no contracts.<br />
+        <br />
+        You can watch as much as you want, whenever you want without a single
+        commercial – all for one low monthly price. There's always something new
+        to discover and new TV shows and movies are added every week!
+      </span>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>

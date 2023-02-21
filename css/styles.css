@@ -50,6 +50,7 @@ h1{
 }
 .input-group{
     padding-top:5px
+   
 }
 
 .television{
@@ -113,29 +114,55 @@ height: 100%;
 
 }
 
-#myDiv {
+.myDiv {
 
     height: 60px;
     width: 5in;
     background-color: #303030;
     color:white;
-    padding: 5px;
-    margin-top: 5px;
+    margin: 5px 5px 1px 250px; 
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    position: relative;
     
   }
   .Divide {
     display: none;
-   height: 200px;
+   /* height: 200px; */
     width: 5in;
     background-color: #303030;
     color:white;
-    padding: 5px;
-    margin-top: 5px;
-    
+padding:5px;
+margin: 5px 5px 1px 250px; 
+
+  
   }
 
   .fa{
     float: right;
     margin-right:  5px;
   }
+
+
+  .subordinate{
+    font-size: larger;
+    margin-top: 10px;
+ padding: 1pc;
+    margin-bottom: 10px;
+  }
+
+
+.getstarted{
+    position:absolute;
+    padding: 10px 32px;
+   
+}
+
+.demo{
+    margin-left: 200px;
+}
+
+
       

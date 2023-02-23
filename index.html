@@ -31,12 +31,14 @@
     <section class="title">
       <div class="container-fluid">
         <nav class="navbar">
-          <a class="navbar-brand" href="#">NetFlix</a>
-          <select class="languages bg-light">
-            <option>English</option>
-            <option>Spanish</option>
-          </select>
-          <button type="button" class="btn btn-danger">Signin</button>
+          <div><a class="navbar-brand" href="#">NetFlix</a></div>
+          <div>
+            <select class="languages bg-light">
+              <option>English</option>
+              <option>Spanish</option>
+            </select>
+            <button type="button" class="btn btn-danger">Signin</button>
+          </div>
         </nav>
         <!-- title -->
 
@@ -74,10 +76,7 @@
             </h3>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-3 gif">
-            <img
-              src="/Users/sureshkannanmuthusamy/Desktop/Netflix starting page/images/netflix gif.gif"
-              alt="img.png"
-            />
+            <img src="/images/netflix gif.gif" alt="img.png" />
           </div>
         </div>
       </div>
@@ -108,7 +107,7 @@
                 </div>
                 <div class="col-3">
                   <img
-                    src="/Users/sureshkannanmuthusamy/Desktop/Netflix starting page/images/download-icon-gif-3.jpeg"
+                    src="/images/download-icon-gif-3.jpeg"
                     alt="img.png"
                     width="40"
                     height="60"
@@ -169,12 +168,10 @@
     <hr class="rounded" />
 
     <section class="television">
-      
-      <div class="container ">
-
-        <h1 style="text-align: center;">Frequently Asked Questions</h1>
+      <div class="container">
+        <h1 style="text-align: center">Frequently Asked Questions</h1>
         <div onclick="toggle(0)" class="myDiv">
-          What is Netflix? <i class="fa  fa-solid fa-plus"></i>
+          What is Netflix? <i class="fa fa-solid fa-plus"></i>
         </div>
 
         <div class="Divide" style="display: none">
@@ -192,7 +189,7 @@
 
         <div onclick="toggle(1)" class="myDiv">
           How much does Netflix cost?
-          <i class="fa  fa-solid fa-plus"></i>
+          <i class="fa fa-solid fa-plus"></i>
         </div>
 
         <div class="Divide" style="display: none">
@@ -204,7 +201,7 @@
         </div>
 
         <div onclick="toggle(2)" class="myDiv">
-          Where can I watch? <i class="fa  fa-solid fa-plus"></i>
+          Where can I watch? <i class="fa fa-solid fa-plus"></i>
         </div>
 
         <div class="Divide" style="display: none">
@@ -222,7 +219,7 @@
         </div>
 
         <div onclick="toggle(3)" class="myDiv">
-          How do I cancel?<i class="fa  fa-solid fa-plus"></i>
+          How do I cancel?<i class="fa fa-solid fa-plus"></i>
         </div>
 
         <div class="Divide" style="display: none">
@@ -235,9 +232,7 @@
         </div>
 
         <div onclick="toggle(4)" class="myDiv">
-          What can I watch on Netflix?<i
-            class="fa  fa-solid fa-plus"
-          ></i>
+          What can I watch on Netflix?<i class="fa fa-solid fa-plus"></i>
         </div>
 
         <div class="Divide" style="display: none">
@@ -249,7 +244,7 @@
         </div>
 
         <div onclick="toggle(5)" class="myDiv">
-          Is Netflix good for kids?<i class="fa  fa-solid fa-plus"></i>
+          Is Netflix good for kids?<i class="fa fa-solid fa-plus"></i>
         </div>
 
         <div class="Divide" style="display: none">
@@ -266,19 +261,57 @@
         </div>
 
         <h2 class="subordinate">
-            Ready to watch? Enter your email to create or restart your
-            membership. 
-          </h2>
-          <div class=" demo ">
-            <textarea  rows="2" placeholder="Email address" cols="50"></textarea><button  class="getstarted btn-lg btn-danger"type="submit" value="submit">Get Started></button>
-          </div>
-         
+          Ready to watch? Enter your email to create or restart your membership.
+        </h2>
+        <div class="demo">
+          <textarea rows="2" placeholder="Email address" cols="50"></textarea
+          ><button
+            class="getstarted btn-lg btn-danger"
+            type="submit"
+            value="submit"
+          >
+            Get Started >
+          </button>
+        </div>
       </div>
     </section>
 
     <hr class="rounded" />
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="index.js"></script>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer">
+          <p>Questions? Call</p>
+          <a href=""> 1 (408) 329-9526 (USA)</a>
+        </div>
+        <div class="grid">
+          <a href=""><span>FAQ</span></a>
+          <a href=""><span>Help Center</span></a>
+          <a href=""><span>Account</span></a>
+          <a href=""><span>Media Center</span></a>
+          <a href=""><span>Investor Relations</span></a>
+          <a href=""><span>Jobs</span></a>
+          <a href=""><span>Ways to Watch</span></a>
+          <a href=""><span>Terms of Use</span></a>
+          <a href=""><span>Privacy</span></a>
+          <a href=""><span>Cookies Preferences</span></a>
+          <a href=""><span>Corporate Information</span></a>
+          <a href=""><span>Contact Us</span></a>
+          <a href=""><span>Speed Test</span></a>
+          <a href=""><span>Legal Notices</span></a>
+          <a href=""><span>Only on Netflix</span></a>
+        </div>
+        <select class=" language2">
+          <option>English</option>
+          <option>Spanish</option>
+        </select>
+        <p style="font-size:13px">Netflix Cayman Islands</p>
+      </div>
+
+      <hr class="rounded" />
+    </footer>
   </body>
 </html>
